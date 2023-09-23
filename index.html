@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <section class="main-section">
+    <section class="main-section" id="main-section">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" >
             <div class="container-fluid main ">
               <a class="navbar-brand" href="#">
@@ -22,36 +22,36 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#main-section">الصفحة الرئيسة</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">service</a>
+                    <a class="nav-link" href="#service">الخدمات</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">review</a>
+                    <a class="nav-link" href="#review">تعاليق</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-disabled="true">contact</a>
+                    <a class="nav-link" href="#contact" aria-disabled="true">تواصل معنا</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <div class="containe hero-section ">
+          <div class="containe hero-section">
             <div class="row row-cols-1 row-cols-md-2 g-4 ">
                 <div class="col  text ">
-                    <h1>hijama center</h1>
-                    <button type="button" class="btn btn-primary">contact us</button>
+                    <h1>مركز السلامة للحجامة</h1>
+                    <button type="button" onClick="document.getElementById('contact').scrollIntoView();" class="btn btn-primary">تواصل معنا</button>
                 </div>
                 <div class="col d-flex flex-column  time">
-                    <h2 style="text-align: center;">OPEN/CLOSE</h2>
+                    <h2 style="text-align: center;">مواعيد العمل</h2>
                     <ul>
-                        <li>8:00am - 5:00pm monday</li>
-                        <li>8:00am - 5:00pm monday</li>
-                        <li>8:00am - 5:00pm monday</li>
-                        <li>8:00am - 5:00pm monday</li>
-                        <li>8:00am - 5:00pm monday</li>
-                        <li>8:00am - 5:00pm monday</li>
+                        <li>الاثنين من 8 صباحا الى 4 مساء</li>
+                        <li>الثلاتاء من 8 صباحا الى 4 مساء</li>
+                        <li>الخميس من 8 صباحا الى 4 مساء</li>
+                        <li>الجمعة من 8 صباحا الى 4 مساء</li>
+                        <li>السبت من 8 صباحا الى 4 مساء</li>
+                        <li>الاحد من 8 صباحا الى 4 مساء</li>
                     </ul>
                 </div>
             </div>
@@ -61,15 +61,16 @@
 <!--sevrvice -->
     <section>
 
-      <div class="container-fluid service">
+      <div class="container-fluid service"  id="service">
         <div class="row row-cols-1 row-cols-md-2 g-4 h-100 d-flex">
-        <div class="col " >
+        <div class="col" >
           <div class="card h-100" >
-            <img src="img/sevrvice.gif" class="card-img-top" alt="...">
+            <img src="img/hijama1.jpg" class="card-img-top"  alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary " style="width: fit-content;">Go somewhere</a>
+              <h5 class="card-title">حجامة الجافة</h5>
+              <p class="card-text">تستخدم الحجامة لعلاج أمراض كثيرة. وهي من السنن الثابتة عن النبي صلى الله عليه وسلم.</p>
+              <h6 style="border-bottom: 1px #0d6efd solid; width: fit-content;">100 درهم</h6>
+              <a href="https://wa.me/+212626606648?text=انا%20مهتم%20بحصة%20حجامة%20الجافة" class="btn btn-primary " style="width: fit-content;">احجز الان</a>
 
             </div>
             
@@ -77,33 +78,37 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/sevrvice.gif" class="card-img-top" alt="...">
+            <img src="img/fire.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary " style="width: fit-content;">Go somewhere</a>
+              <h5 class="card-title">الفوطة النارية</h5>
+              <p class="card-text">الفوطة النارية هو احد الطرق العلاجية وهو نوع من انواع المساج الصيني القديم</p>
+              <h6 style="border-bottom: 2px #0d6efd solid; width: fit-content;">80 درهم</h6>
+              <a href="https://wa.me/+212626606648?text=انا%20مهتم%20بحصة%20الفوطة%20النارية" class="btn btn-primary " style="width: fit-content;">احجز الان</a>
             </div>
             
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/sevrvice.gif" class="card-img-top" alt="...">
+            <img src="img/massage.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <a href="#" class="btn btn-primary " style="width: fit-content;">Go somewhere</a>
+              <h5 class="card-title">مساج</h5>
+              <p class="card-text">المساعدة في تقليل التوتر. تخفيف الألم وانقباض العضلات. زيادة الاسترخاء. تحسين كفاءة جهاز المناعة.</p>
+              <h6 style="border-bottom: 2px #0d6efd solid; width: fit-content;">80 درهم</h6>
+              <a href="https://wa.me/+212626606648?text=انا%20مهتم%20بحصة%20مساج" class="btn btn-primary " style="width: fit-content;">احجز الان</a>
             </div>
             
           </div>
         </div>
         <div class="col ">
           <div class="card h-100 ">
-            <img src="img/sevrvice.gif" class="card-img-top" alt="...">
+            <img src="img/hijama2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <a href="#" class="btn btn-primary " style="width: fit-content;">Go somewhere</a>
+              <h5 class="card-title">عرض خاص</h5>
+              <p class="card-text">للستفاد من حجامة الجافة, فوطة النارية ومساج في حصة واحد.</p>
+              
+              <h6 style="border-bottom: 2px #0d6efd solid; width: fit-content;">150 درهم</h6>
+              <a href=href="https://wa.me/+212626606648?text=انا%20مهتم%20بحصة%20عرض%20خاص" class="btn btn-primary " style="width: fit-content;">احجز الان</a>
             </div>
           </div>
         </div>
@@ -112,16 +117,16 @@
     </section>
 
     <!--review-->
-    <section class="review">
+    <section class="review" id="review">
       <div class="container ">
         <div class="review-head ">review</div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 review-quote">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 review-quote">
           <div class="crd">
             <img src="img/person-img.jpeg" style="width: 50px; height: 50px; border-radius: 50%;" alt="">
             <div>
-              <h3>marwan</h3>
-              <a href="">facebook</a>
-              <p>"good services with amazing hijama"</p>
+              <h3>anass</h3>
+              <a href="https://www.instagram.com/p/CmGvrBYIaZz/">instagram</a>
+              <p>"تبارك الله عليكم اخي الله يسر لكم"</p>
             </div>
           </div>
           <div class="crd">
@@ -140,7 +145,7 @@
               <p>"good services with amazing hijama"</p>
             </div>
           </div>
-          <div class="crd">
+          <div class="crd g">
             <img src="img/person-img.jpeg" style="width: 50px; height: 50px; border-radius: 50%;" alt="">
             <div>
               <h3>marwan</h3>
@@ -155,33 +160,32 @@
     </section>
 
 <!--contact-->
-    <section class="contact">
-      <div class="container contact-section">
-        <div class="row row-cols-1 row-cols-md-2 g-4 w-100">
-          <div class="col map">
-            <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d359.60526073593815!2d-7.47934888229522!3d33.585390999810784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sma!4v1694974565821!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col info-contact">
-            <div class="info">
-              <h2>contact us</h2>
-              <ul>
-                <li>number: 06********</li>
-                <li>number: 06********</li>
-                <li>number: 06********</li>
-              </ul>
-            </div>
-            <div class="info-media">
-              <h3>social media</h3>
-              <div>
-                <img src="img/facebook.png" style="height: 50px; width: 50px;" alt="">
-                <img src="img/facebook.png" style="height: 50px; width: 50px;" alt="">
-                <img src="img/facebook.png" style="height: 50px; width: 50px;" alt="">
-              </div>
-            </div>
+<section class="contact" id="contact">
+  <div class="container contact-section">
+    <div class="row row-cols-1 row-cols-md-2 g-4 ">
+      <div class="col map">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d359.60526073593815!2d-7.47934888229522!3d33.585390999810784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sma!4v1694974565821!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col info-contact">
+        <div class="info">
+          <h2>للتواصل معنا</h2>
+          <ul>
+            <li>رقم الهاتف: 0626606648</li>
+            <li>عنوان: سيدي برنوصي سلام2</li>
+          </ul>
+        </div>
+        <div class="info-media">
+          <h3>مواقع التواصل الجتماعي</h3>
+          <div>
+            <a href="https://www.facebook.com/profile.php?id=100087663332092&mibextid=ZbWKwL"><img src="img/facebook.png" style="height: 50px; width: 50px;" alt=""></a>
+            <a href="https://instagram.com/center_al_salama_hijjama?igshid=OGQ5ZDc2ODk2ZA=="><img src="img/instagram.png" style="height: 50px; width: 50px;" alt=""></a>
+            <a href="https://wa.me/+212626606648"><img src="img/whatsapp.png" style="height: 50px; width: 50px;" alt=""></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
