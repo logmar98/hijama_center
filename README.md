@@ -11,7 +11,8 @@ This is a frontend website project for a Fire cupping service, created using HTM
 
 ## Screenshots
 
-![image](![image](https://github.com/logmar98/hijama_center/assets/91753996/a91ac1d2-274d-4ecc-b867-c73cb8467ad9))
+![image](https://github.com/logmar98/hijama_center/assets/91753996/e650c131-5097-4040-a1a8-5eadf7fe1f33)
+
 
 
 ## Technologies Used
